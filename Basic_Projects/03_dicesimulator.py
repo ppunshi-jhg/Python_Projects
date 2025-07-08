@@ -1,3 +1,14 @@
+f'''
+This program simulates rolling dice.
+
+It asks the user how many dice they want to roll.
+If the user types "exit", the program ends.
+If the user enters a valid number greater than 0, it rolls that many dice.
+Each die gives a random number between 1 and 6.
+It prints out the result of all the dice rolls.
+Finally, it thanks the user for using the simulator.
+'''
+
 from random import randint
 
 lower_number, higher_number = 1,6

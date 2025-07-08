@@ -23,6 +23,8 @@ def run_game():
         if guess in word:
             guessed_letters += guess
             print(f"Good guess! The word contains '{guess}'.")
+            word_length = len(word)
+            print("_"*len(word))
             print(f"You have {tries} tries left.")
             if all(letter in guessed_letters for letter in word):
                 print(f"Congratulations {username}! You guessed the word '{word}' correctly.")
