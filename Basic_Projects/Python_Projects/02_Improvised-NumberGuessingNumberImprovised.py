@@ -13,6 +13,7 @@ If you enter something that isn’t a number, it asks you to "Please enter a val
 The else after the for loop runs only if you never guessed the number correctly.
 '''
 
+
 from random import randint
 
 lower_number, higher_number = 1,10
