@@ -1,4 +1,3 @@
-list1 = ["My name", "is", "John"]
+from getpass import getpass
 
-for ele in list1:
-    print(ele)  
+password = getpass("Enter your password: ")

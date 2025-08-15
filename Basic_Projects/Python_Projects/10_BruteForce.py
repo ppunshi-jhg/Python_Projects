@@ -1,6 +1,6 @@
 import time
 import string
-import itertools
+import itertools #Helps provides a collection of fast, memory-efficient tools that are useful by themselves or in combination. It is used for creating iterators for efficient looping.
 
 def common_words(word: str) -> str | None:
     word = word.strip()
