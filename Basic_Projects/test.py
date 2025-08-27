@@ -1,3 +1,5 @@
-from getpass import getpass
+number = 1000.2345
 
-password = getpass("Enter your password: ")
+print(f"The {number:,.2f}")
+print(f"The {number = :,.2f}")
+print(f"The {number = :,.2f}")
